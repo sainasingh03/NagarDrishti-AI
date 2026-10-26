@@ -1,0 +1,12 @@
+NAGARDRISHTI AI — PREMIUM FRONTEND UPDATE
+
+1. Extract this ZIP into a NEW folder, or replace the files in your current project after making a backup.
+2. Open the project root in VS Code (the folder containing package.json).
+3. Install frontend packages if needed: npm install
+4. Start the backend in a separate terminal:
+   .\backend\.venv\Scripts\python.exe -m uvicorn backend.main:app --host 127.0.0.1 --port 8081 --reload
+5. Start the frontend in another terminal:
+   npm run dev
+6. Open the Vite URL shown in the terminal (usually http://localhost:5173).
+
+The frontend API default was changed to http://127.0.0.1:8081 to match the backend port in this setup. The existing React pages and features are preserved; the stylesheet adds responsive premium forest-green, ivory and champagne-gold polish.
